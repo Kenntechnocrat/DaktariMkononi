@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+{% load static %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+
+
+    <div class="home_page">
+        <div class="text-center  pt-5 pb-5">
+            <h2 class="intro_text">Welcome To Tiba Pap!!</h2>
+            <div class="into_paragraph">Daktari Mkononi kwa Kila Hatua. <br>Connecting you to your healthcare<br> professional at a blink</div>
+            <a type="button" class="btn btn-primary shadow  mt-5" href="{% url 'booking' %}">Online Booking</a>
+        </div>
+    </div>
+
+  
+
+{% endblock %}
